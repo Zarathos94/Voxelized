@@ -13,6 +13,10 @@
 		717405BD1B3F32DE00BD06A9 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 717405BC1B3F32DE00BD06A9 /* nice_music.ogg */; };
 		717405BF1B3F32DE00BD06A9 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 717405BE1B3F32DE00BD06A9 /* sansation.ttf */; };
 		717405C11B3F32DE00BD06A9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 717405C01B3F32DE00BD06A9 /* icon.png */; };
+		717405CC1B3F334500BD06A9 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 717405C71B3F334500BD06A9 /* Utility.cpp */; };
+		717405CD1B3F334500BD06A9 /* Vox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 717405C91B3F334500BD06A9 /* Vox.cpp */; };
+		717405D11B3F337400BD06A9 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717405CF1B3F337400BD06A9 /* OpenAL.framework */; };
+		717405D21B3F337400BD06A9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717405D01B3F337400BD06A9 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,12 @@
 		717405BC1B3F32DE00BD06A9 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		717405BE1B3F32DE00BD06A9 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		717405C01B3F32DE00BD06A9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		717405C71B3F334500BD06A9 /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utility.cpp; sourceTree = "<group>"; };
+		717405C81B3F334500BD06A9 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		717405C91B3F334500BD06A9 /* Vox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vox.cpp; sourceTree = "<group>"; };
+		717405CA1B3F334500BD06A9 /* Vox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vox.h; sourceTree = "<group>"; };
+		717405CF1B3F337400BD06A9 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		717405D01B3F337400BD06A9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717405D11B3F337400BD06A9 /* OpenAL.framework in Frameworks */,
+				717405D21B3F337400BD06A9 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +53,8 @@
 		717405A51B3F32DE00BD06A9 = {
 			isa = PBXGroup;
 			children = (
+				717405CF1B3F337400BD06A9 /* OpenAL.framework */,
+				717405D01B3F337400BD06A9 /* OpenGL.framework */,
 				717405B11B3F32DE00BD06A9 /* Voxelized */,
 				717405B01B3F32DE00BD06A9 /* Products */,
 			);
@@ -58,6 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				717405B41B3F32DE00BD06A9 /* ResourcePath.mm */,
+				717405C71B3F334500BD06A9 /* Utility.cpp */,
+				717405C81B3F334500BD06A9 /* Utility.h */,
+				717405C91B3F334500BD06A9 /* Vox.cpp */,
+				717405CA1B3F334500BD06A9 /* Vox.h */,
 				717405B61B3F32DE00BD06A9 /* ResourcePath.hpp */,
 				717405B71B3F32DE00BD06A9 /* main.cpp */,
 				717405B91B3F32DE00BD06A9 /* Resources */,
@@ -172,6 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717405CC1B3F334500BD06A9 /* Utility.cpp in Sources */,
+				717405CD1B3F334500BD06A9 /* Vox.cpp in Sources */,
 				717405B81B3F32DE00BD06A9 /* main.cpp in Sources */,
 				717405B51B3F32DE00BD06A9 /* ResourcePath.mm in Sources */,
 			);
