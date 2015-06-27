@@ -17,6 +17,7 @@
 		717405CD1B3F334500BD06A9 /* Vox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 717405C91B3F334500BD06A9 /* Vox.cpp */; };
 		717405D11B3F337400BD06A9 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717405CF1B3F337400BD06A9 /* OpenAL.framework */; };
 		717405D21B3F337400BD06A9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717405D01B3F337400BD06A9 /* OpenGL.framework */; };
+		717405D41B3F33D800BD06A9 /* atarians.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 717405D31B3F33D800BD06A9 /* atarians.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		717405CA1B3F334500BD06A9 /* Vox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vox.h; sourceTree = "<group>"; };
 		717405CF1B3F337400BD06A9 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		717405D01B3F337400BD06A9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		717405D31B3F33D800BD06A9 /* atarians.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atarians.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				717405C81B3F334500BD06A9 /* Utility.h */,
 				717405C91B3F334500BD06A9 /* Vox.cpp */,
 				717405CA1B3F334500BD06A9 /* Vox.h */,
+				717405D31B3F33D800BD06A9 /* atarians.mp3 */,
 				717405B61B3F32DE00BD06A9 /* ResourcePath.hpp */,
 				717405B71B3F32DE00BD06A9 /* main.cpp */,
 				717405B91B3F32DE00BD06A9 /* Resources */,
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717405D41B3F33D800BD06A9 /* atarians.mp3 in Resources */,
 				717405C11B3F32DE00BD06A9 /* icon.png in Resources */,
 				717405BF1B3F32DE00BD06A9 /* sansation.ttf in Resources */,
 				717405BD1B3F32DE00BD06A9 /* nice_music.ogg in Resources */,
